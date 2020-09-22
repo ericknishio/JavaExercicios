@@ -52,7 +52,9 @@ public class Exemplo {
 		Revista revista = new Revista();
 		Editora editora1 = new Editora();
 		Endereco endereco1 = new Endereco();
-		
+		// Revista tipo do objeto (fala objeto Revista do tipo revista ou poderia ser outro nome também
+		//revista objeto (objeto: poderia ser qualquer outro nome)
+		// new = instanciando (Constroi um objeto)
 		
 	}
 	
