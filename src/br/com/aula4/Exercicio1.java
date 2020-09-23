@@ -1,7 +1,7 @@
 package br.com.aula4;
 
 //Criar objeto revista, com editora e endereço diferente do já cadastrado
-//Criar uma classe Periodico, e um objeto periodico com editora e endereço diferentes dos já cadastrados
+
 
 public class Exercicio1 {
 
@@ -28,5 +28,4 @@ public class Exercicio1 {
 		System.out.println(revista2.getEditora().getNomeFantasia());
 		System.out.println(revista2.getEditora().getEndereco().getCidade());
 	}
-
 }
