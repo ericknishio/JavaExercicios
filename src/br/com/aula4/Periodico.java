@@ -18,5 +18,5 @@ public class Periodico extends Exemplar {
 		this.area = area;
 	}
 
-	
+	//Criar construtor sem argumentos e completo
 }

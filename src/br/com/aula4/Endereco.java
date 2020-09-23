@@ -52,4 +52,19 @@ public class Endereco {
 		this.complemento = complemento;
 	}
 	
+	public Endereco() {
+		
+	}
+	
+	public Endereco(String logradouro, String cep, Integer numero, String bairro, String cidade, String estado,
+			String complemento) {
+		this.logradouro = logradouro;
+		this.cep = cep;
+		this.numero = numero;
+		this.bairro = bairro;
+		this.cidade = cidade;
+		this.estado = estado;
+		this.complemento = complemento;
+	}
+	
 }

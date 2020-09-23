@@ -24,5 +24,19 @@ public class Editora {
 		this.endereco = endereco;
 	}
 	
-
+	//Construtor sem argumentos
+	public Editora() {
+		
+	}
+	
+	public Editora(String nomeFantasia) {
+		this.nomeFantasia = nomeFantasia;
+	}
+	
+	//Construtor completo
+	public Editora(String nomeFantasia, String cnpj, Endereco endereco) {
+		this.nomeFantasia = nomeFantasia;
+		this.cnpj = cnpj;
+		this.endereco = endereco;
+	}
 }
