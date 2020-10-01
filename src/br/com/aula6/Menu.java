@@ -3,6 +3,8 @@ package br.com.aula6;
 public class Menu {
 
 	public static void main(String[] args) {
+		
+		
 		// MENU
 		// CADASTRAR
 		// LOGAR
