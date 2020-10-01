@@ -1,10 +1,12 @@
 package br.com.aula6;
 
+import java.util.Scanner;
+
 public class Menu {
 
 	public static void main(String[] args) {
 	Scanner scan = new Scanner(System.in);
-	String cadastras;
+	String cadastrar;
 	String logar;
 	String seLogado;
 	String opcao;
@@ -16,17 +18,17 @@ public class Menu {
 	
 	opcao = scan.next();
 	
-	switch (opcao) {
-		case "1":
-			System.out.print("Cadastrar", cadastras);
-			break;
-		case "2";
-			System.out.print("Logar", logar);
-			break;
-		case "3";
-			System.out.print("Logado", Logado);	
+//	switch (opcao) {
+//		case "1":
+//			System.out.print("Cadastrar", cadastras);
+//			break;
+//		case "2";
+//			System.out.print("Logar", logar);
+//			break;
+//		case "3";
+//			System.out.print("Logado", Logado);	
 			
-		}
+//		}
 	}
 }
 	
@@ -39,7 +41,4 @@ public class Menu {
 			// EDITAR CADASTRO
 			// EXCLUIR CONTA
 			// SAIR
-
-	
-
 
