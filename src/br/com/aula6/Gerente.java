@@ -2,6 +2,7 @@ package br.com.aula6;
 
 //Herda de Usuario
 public class Gerente extends Usuario {
+	
 	private String setorResponsavel;
 	private Double salario;
 	
@@ -18,6 +19,10 @@ public class Gerente extends Usuario {
 		this.salario = salario;
 	}
 
+	public Gerente() {
+		
+	}
+	
 	public Gerente(String nome, Integer idade, String cpf, String rg, String dataNascimento, String setorResponsavel,
 			Double salario) {
 		super(nome, idade, cpf, rg, dataNascimento);
@@ -25,13 +30,4 @@ public class Gerente extends Usuario {
 		this.salario = salario;
 	}
 	
-}	
-	
-	//ATRIBUTOS  OK!
-	
-	//GET SET  OK!
-	
-	//CONSTRUTOR  OK!
-	
-	//MÉTODOS     NÃO OK! :/
-
+}

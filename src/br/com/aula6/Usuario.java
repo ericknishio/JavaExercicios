@@ -1,6 +1,7 @@
 package br.com.aula6;
 
 public class Usuario {
+	
 	private String nome;
 	private Integer idade;
 	private String cpf;
@@ -37,6 +38,11 @@ public class Usuario {
 	public void setDataNascimento(String dataNascimento) {
 		this.dataNascimento = dataNascimento;
 	}
+	
+	public Usuario() {
+		
+	}
+	
 	public Usuario(String nome, Integer idade, String cpf, String rg, String dataNascimento) {
 		this.nome = nome;
 		this.idade = idade;
@@ -44,10 +50,4 @@ public class Usuario {
 		this.rg = rg;
 		this.dataNascimento = dataNascimento;
 	}
-	
-	//ATRIBUTOS  OK!
-	
-	//GET SET  OK!
-	
-	//CONSTRUTOR  OK!
 }
