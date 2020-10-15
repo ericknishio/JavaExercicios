@@ -25,11 +25,13 @@ public class Curso {
 	}
 
 	public Curso(String nomeCurso, Integer quantidadeAluno, Integer quantidadeSemestres) {
-		super();
 		this.nomeCurso = nomeCurso;
 		this.quantidadeAluno = quantidadeAluno;
 		this.quantidadeSemestres = quantidadeSemestres;
 	}	
+	
+	public Curso() {
+	}
 	
 	public static Integer calculoTotalAlunos() {
 		return null;

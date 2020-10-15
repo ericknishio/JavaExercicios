@@ -53,6 +53,7 @@ public class Matricula {
 		this.anoMatricula = anoMatricula;
 		this.mensalidade = mensalidade;
 		this.instituicao = instituicao;
+	}
+	public Matricula() {
 	}	
-	
 }

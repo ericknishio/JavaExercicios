@@ -53,5 +53,8 @@ public class Disciplina {
 		this.anoDisciplina = anoDisciplina;
 		this.semestreDisciplina = semestreDisciplina;
 		this.departamentoDisciplina = departamentoDisciplina;
-	} 
+	}
+	public Disciplina() {
+	} 	
 }
+

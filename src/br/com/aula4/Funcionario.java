@@ -1,7 +1,5 @@
 package br.com.aula4;
 
-import java.util.Date;
-
 public class Funcionario {
 	private String nome;
 	private String rg;

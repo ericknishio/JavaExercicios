@@ -23,6 +23,10 @@ public class Departamento {
 		this.nomeCentro = nomeCentro;
 	}	
 	
+	
+	public Departamento() {
+	}
+	
 	public static Integer disciplinasTotais() {
 		return null;
 	}

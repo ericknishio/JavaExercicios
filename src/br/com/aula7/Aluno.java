@@ -1,15 +1,13 @@
 package br.com.aula7;
 
-import java.util.Scanner;
-
 public class Aluno extends Matricula {
 	 private String nomeAluno;
 	 private Integer ano;
 	 private Integer semestre;
-	 private String curso;
-	 private String disciplina;
-
-	 public String getNomeAluno() {
+	 private Curso curso;
+	 private Disciplina disciplina;
+	 
+	public String getNomeAluno() {
 		return nomeAluno;
 	}
 	public void setNomeAluno(String nomeAluno) {
@@ -27,28 +25,33 @@ public class Aluno extends Matricula {
 	public void setSemestre(Integer semestre) {
 		this.semestre = semestre;
 	}
-	public String getCurso() {
+	public Curso getCurso() {
 		return curso;
 	}
-	public void setCurso(String curso) {
+	public void setCurso(Curso curso) {
 		this.curso = curso;
 	}
-	public String getDisciplina() {
+	public Disciplina getDisciplina() {
 		return disciplina;
 	}
-	public void setDisciplina(String disciplina) {
+	public void setDisciplina(Disciplina disciplina) {
 		this.disciplina = disciplina;
 	}
 	
 	public Aluno(String cpf, String rg, Integer numeroMatricula, Integer anoMatricula, Double mensalidade,
-			String instituicao, String nomeAluno, Integer ano, Integer semestre, String curso, String disciplina) {
+			String instituicao, String nomeAluno, Integer ano, Integer semestre, Curso curso, Disciplina disciplina) {
 		super(cpf, rg, numeroMatricula, anoMatricula, mensalidade, instituicao);
 		this.nomeAluno = nomeAluno;
 		this.ano = ano;
 		this.semestre = semestre;
 		this.curso = curso;
 		this.disciplina = disciplina;
-	} 
+	}
+	
+	public Aluno(String cpf, String rg, Integer numeroMatricula, Integer anoMatricula, Double mensalidade,
+			String instituicao) {
+		super(cpf, rg, numeroMatricula, anoMatricula, mensalidade, instituicao);
+	}
 	
 	public static Double calculoMedia() {
 		return null;
