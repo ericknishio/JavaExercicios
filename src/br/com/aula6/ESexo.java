@@ -1,6 +1,12 @@
 package br.com.aula6;
 
 public enum ESexo {
-	MASCULINO,
-	FEMININO
+	MASCULINO("M"),
+	FEMININO("F");
+
+	  private String descricao;
+	
+	  ESexo(String descricao) {
+	     this.descricao = descricao;
+	  }
 }
